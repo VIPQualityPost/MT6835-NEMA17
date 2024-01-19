@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/mateijordache/Documents/electronics_projects/mt6835-nema17/mt6835-nema17.kicad_sch</source>
+    <date>Thursday, January 18, 2024 at 08:58:23 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mt6835-nema17.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part #" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>491264d2-175f-4ba2-9703-f48c8b89fa36</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C307331</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part #" value="C307331"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58b7bc68-eb99-4250-bba1-35880df3a978</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part #" value="C52923"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52567616-7dc4-46ad-979c-c858cb14fd4c</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>PCB</value>
+      <footprint>mechanical:NEMA17</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd813148-3291-460e-a1e1-48b1a444d8b1</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>JST-SH</value>
+      <footprint>easyeda2kicad:CONN-SMD_AFC10-S09QCC-00</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C2764188</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x09" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="JLCPCB Part #" value="C2764188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a48022-019d-4975-a984-2b54527a9c7b</tstamps>
+    </comp>
+    <comp ref="JP101">
+      <value>PWM</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>442a94cc-f981-4491-9d47-cedc26049a3c</tstamps>
+    </comp>
+    <comp ref="JP102">
+      <value>ZW</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1883f523-a72b-4f2d-83f1-a2eabc5fd376</tstamps>
+    </comp>
+    <comp ref="JP103">
+      <value>BV</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0462ae8f-2541-4688-836c-354492011fe4</tstamps>
+    </comp>
+    <comp ref="JP104">
+      <value>AU</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Solder Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41bd8fff-713a-4276-8ee9-0d4a36ce6de5</tstamps>
+    </comp>
+    <comp ref="JP105">
+      <value>CAL</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
+      <property name="ki_keywords" value="solder jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>319ad8d4-6e90-458b-a60d-abbb993aff99</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="JLCPCB Part #" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc573d90-5731-428f-860e-7e46afa50095</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>MT6835</value>
+      <footprint>matei:MagnTek TSSOP-16-1EP_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.magntek.com.cn/upload/MT6835_Rev.1.2.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C2932578</field>
+      </fields>
+      <libsource lib="matei" part="MT6835" description=""/>
+      <property name="JLCPCB Part #" value="C2932578"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mt6835-nema17.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7c47c96-c802-4b45-b1b0-414d6edea213</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x09">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="matei" part="MT6835">
+      <docs>http://www.magntek.com.cn/upload/MT6835_Rev.1.2.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT6835</field>
+        <field name="Footprint">matei:MagnTek TSSOP-16-1EP_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">http://www.magntek.com.cn/upload/MT6835_Rev.1.2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="U" type="output"/>
+        <pin num="2" name="V" type="output"/>
+        <pin num="3" name="W" type="output"/>
+        <pin num="4" name="CAL_EN" type="input"/>
+        <pin num="5" name="MISO" type="output"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="SCK" type="input"/>
+        <pin num="8" name="CSN" type="input"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="PWM_OUT" type="output"/>
+        <pin num="11" name="TEST" type="input"/>
+        <pin num="12" name="VSS" type="power_in"/>
+        <pin num="13" name="TEST_EN" type="input"/>
+        <pin num="14" name="Z" type="output"/>
+        <pin num="15" name="B" type="output"/>
+        <pin num="16" name="A" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="matei">
+      <uri>/Users/mateijordache/Documents/KiCad/6.0/symbols/matei.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U101" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/A">
+      <node ref="JP104" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="16" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="3" name="/B">
+      <node ref="JP103" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="15" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="4" name="/CIPO">
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U101" pin="5" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="5" name="/COPI">
+      <node ref="J101" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U101" pin="6" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="6" name="/ENC_1">
+      <node ref="J101" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="JP104" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="JP105" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="7" name="/ENC_2">
+      <node ref="J101" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="JP103" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="8" name="/ENC_3">
+      <node ref="J101" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="JP101" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP102" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="9" name="/PWM">
+      <node ref="JP101" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="10" pinfunction="PWM_OUT" pintype="output"/>
+    </net>
+    <net code="10" name="/SCK">
+      <node ref="J101" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U101" pin="7" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="11" name="/U">
+      <node ref="JP104" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="U" pintype="output"/>
+    </net>
+    <net code="12" name="/V">
+      <node ref="JP103" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="V" pintype="output"/>
+    </net>
+    <net code="13" name="/W">
+      <node ref="JP102" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="W" pintype="output"/>
+    </net>
+    <net code="14" name="/Z">
+      <node ref="JP102" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="Z" pintype="output"/>
+    </net>
+    <net code="15" name="/~{CS}">
+      <node ref="J101" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U101" pin="8" pinfunction="CSN" pintype="input"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="H101" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J101" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="U101" pin="11" pinfunction="TEST" pintype="input"/>
+      <node ref="U101" pin="12" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U101" pin="13" pinfunction="TEST_EN" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(JP105-B)">
+      <node ref="JP105" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U101" pin="4" pinfunction="CAL_EN" pintype="input"/>
+    </net>
+  </nets>
+</export>
